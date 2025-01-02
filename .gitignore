@@ -1,2 +1,5 @@
 # Ignorar la carpeta .idea (usada por JetBrains/PyCharm)
 **/.idea/
+**/.vs/
+
+
