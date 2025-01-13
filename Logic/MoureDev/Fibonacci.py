@@ -1,12 +1,5 @@
+fib = lambda n: 0 if n == 0 else 1 if n == 1 else fib(n-1) + fib(n-2)
 
-def fib(n):
-    if n == 0:
-        return 0
-    elif n == 1:
-        return 1
-    else:
-        return fib(n-1) + fib(n-2)
-
-
-
-print(fib(4))
+n = 4
+fibonacci_sequence = [fib(i) for i in range(n+1)]
+print(fibonacci_sequence)
